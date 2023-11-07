@@ -1,5 +1,5 @@
 FROM debian
-LABEL Test
+#LABEL Test
 RUN apt update
 RUN apt install mc
 cmd /bin/bash
